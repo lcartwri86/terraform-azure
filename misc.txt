@@ -1,0 +1,6 @@
+az vm image accept-terms --offer check-point-cg-r8040 --plan mgmt-byol --publisher checkpoint
+az vm image accept-terms --offer check-point-cg-r8110 --plan mgmt-byol --publisher checkpoint
+az vm image accept-terms --offer nginxstack --plan 1-9 --publisher bitnami
+
+az vm image accept-terms --offer check-point-cg-r8040 --plan sg-byol --publisher checkpoint
+az vm image accept-terms --offer check-point-cg-r8110 --plan sg-byol --publisher checkpoint
